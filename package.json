@@ -1,10 +1,10 @@
 {
   "name": "learn-node-js",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon --inspect src/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,9 +25,11 @@
   "homepage": "https://github.com/PhamTatThanh-VNU/NodeJS-LEARN-01#readme",
   "description": "",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.3"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "nodemon": "^3.1.4"
   }
 }
