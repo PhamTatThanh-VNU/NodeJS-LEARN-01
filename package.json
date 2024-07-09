@@ -1,0 +1,33 @@
+{
+  "name": "learn-node-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhamTatThanh-VNU/NodeJS-LEARN-01.git"
+  },
+  "keywords": [
+    "nodejs",
+    "learn",
+    "node",
+    "first",
+    "prj"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhamTatThanh-VNU/NodeJS-LEARN-01/issues"
+  },
+  "homepage": "https://github.com/PhamTatThanh-VNU/NodeJS-LEARN-01#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
